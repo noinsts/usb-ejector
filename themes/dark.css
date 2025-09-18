@@ -1,0 +1,83 @@
+/* themes/dark.css - Покращена темна тема для USB Ejector */
+
+/* Загальні стилі */
+.main-container {
+    background-image: linear-gradient(to bottom, #1a2027, #2d3436);
+    border-radius: 12px;
+    padding: 30px;
+    border: 1px solid #444a50;
+}
+
+/* Стилі для тексту */
+.app-title {
+    color: #f8f9fa;
+    font-weight: bold;
+}
+
+.app-description {
+    color: #ced4da;
+    font-size: 14px;
+}
+
+/* Стилі для кнопки вилучення */
+.eject-button {
+    font-size: 16px;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, #ff7f50, #dc143c);
+    color: white;
+    border-radius: 8px;
+    border-width: 0;
+    padding: 12px 24px;
+    min-height: 50px;
+    min-width: 200px;
+}
+
+.eject-button:hover {
+    background-image: linear-gradient(to bottom, #ff6347, #b22222);
+    box-shadow: 0 4px 12px rgba(220, 20, 60, 0.4);
+}
+
+.eject-button:active {
+    background-image: linear-gradient(to bottom, #b22222, #a52a2a);
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Стилі для кнопки перемикання теми */
+button.theme-switcher {
+    border-radius: 50%;
+    background-color: transparent;
+    border-width: 0;
+    color: #f8f9fa;
+    min-width: 40px;
+    min-height: 40px;
+    padding: 0;
+}
+
+button.theme-switcher:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+button.theme-switcher:active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Стилі для тексту статусу (рекомендую додати такий Label до вашого застосунку) */
+.status-label {
+    font-weight: bold;
+}
+
+.status-success {
+    color: #28a745;
+}
+
+.status-loading {
+    color: #ffc107;
+}
+
+.status-error {
+    color: #dc3545;
+}
+
+.status-ready {
+    color: #28a745;
+}
